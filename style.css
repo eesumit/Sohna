@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    background-color: black;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background:#6fb3f2;
+    position: relative;
+}
+.child{
+    position: absolute;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.happy{
+    /* background: #296094; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:30px;
+    padding-bottom: 50px;
+}
+.newyear{
+    display: flex;
+    justify-content: space-around;
+    /* background: #031527; */
+    padding-top:30px;
+    gap: 3rem;
+    padding-bottom: 50px;
+
+}
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+img{
+    height: 10rem;
+}
+.snow{
+    height: 100vh;
+    width: 100vw;
+    object-fit: contain;
+}
+.snow img{
+   height: 100%;
+   width: 100%;
+}
+pre{
+    line-height: 0.7rem;
+}
