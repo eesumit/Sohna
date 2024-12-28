@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Borel&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Borel", serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    height: 100%;
+    width: 100%;
+    /* position: relative; */
+}
+main .container {
+    margin: 0;
+    background: #f69606;
+    background-image: url(message.png);
+    width: 100vw;
+    height: 100vh; /* Set a height for the div */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Ensures the image is centered */
+
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px 0px 200px;
+
+}
+.container h1{
+    font-family: "Ballet", serif;
+    padding-left: 100px;
+    font-weight: 200;
+    font-size:50px;
+    color: rgb(217, 255, 0);
+    text-shadow: 5px 5px #fc9a07;
+    /* -webkit-text-stroke: 0.001px rgb(240, 30, 30); */
+    filter: drop-shadow(1px 1px 20px yellow);
+}
+::selection{
+    color: rgb(217, 255, 0);
+    background-color: #f89602;
+}
+#message{
+    padding-top: 30px;
+}
+ 

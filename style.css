@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Borel&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -61,3 +63,90 @@ img{
 pre{
     line-height: 0.7rem;
 }
+
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .desktop, .snow{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .desktop, .snow{
+        display: none;
+    }
+    main{
+        background-color: #6fb3f2;
+       
+    }
+    .mobile{
+        position: relative;
+        top: -50%;
+        left: -50%;
+    }
+    .background{
+        position: absolute;
+        height: 120vh;
+    }
+    .mobile-content{
+        position: absolute;
+        height: 120vh;
+    }
+    .happysp{
+        display: flex;
+        /* border: 1px solid black; */
+        top: 50px;
+        margin-top: 100px;
+        padding-left: 25px;
+    }
+    .happysp img{
+        height: 8rem;
+    }
+    .first-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+    }
+    .coffee-mug{
+        display: flex;
+        justify-content: center;
+    }
+    .n{
+        padding-left: 25px;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .yr{
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    .merichhoti{
+        filter: drop-shadow(5px 1px 20px rgb(33, 249, 21));
+    }
+    .sona{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        color: orange; 
+    }
+    .sona h1{
+        text-shadow: 5px green;
+        font-family: "Ballet", serif;
+        font-size: 7.5rem;
+    }
+  }
