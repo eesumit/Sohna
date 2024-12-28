@@ -47,3 +47,11 @@ main .container {
     padding-top: 30px;
 }
  
+.riya{
+    color: rgb(240, 68, 177);
+    filter: drop-shadow(1px 1px 20px rgb(255, 0, 204));
+}
+.summi{
+    font-size: 10px;
+    color: rgb(46, 44, 44);
+}
