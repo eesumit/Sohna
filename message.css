@@ -15,7 +15,7 @@ main{
     width: 100%;
     /* position: relative; */
 }
-main .container {
+  .xyz {
     margin: 0;
     background: #f69606;
     background-image: url(message.png);
@@ -29,7 +29,7 @@ main .container {
     padding: 50px 200px 0px 200px;
 
 }
-.container h1{
+.xyz h1{
     font-family: "Ballet", serif;
     padding-left: 100px;
     font-weight: 200;
@@ -55,3 +55,70 @@ main .container {
     font-size: 10px;
     color: rgb(46, 44, 44);
 }
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+ { 
+     
+    .xyz2{
+        display: none;
+    }
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+    {
+      .xyz{
+        display: none;
+      }
+    
+     .xyz2{
+        position: relative;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+
+        background:linear-gradient(orange,yellow);
+     }
+     .one, .two{
+        position: absolute;
+     }
+     .one img{
+        height: 115vh;
+     }
+     .two{
+        padding-left: 30px;
+        min-width: 550px;
+        /* border: 1px solid black; */
+     }
+     .two h1{
+        padding-left: 120px;
+        font-family: "Ballet", serif;
+  
+    
+    color: rgb(217, 255, 0);
+    text-shadow: 5px 5px #fc9a07;
+    /* -webkit-text-stroke: 0.001px rgb(240, 30, 30); */
+    filter: drop-shadow(1px 1px 20px yellow);
+     }
+     .two h2{
+        padding-left: 60px;
+     }
+     .two h3{
+        padding-left: 60px;
+        color: rgb(0, 255, 98);
+     }
+     .two h4{
+        padding-left: 60px;
+        color: #caf606;
+     }
+     #sandesh p{
+        padding-left: 60px;
+        color: yellow;
+     }
+     .riyu{
+        color: rgb(240, 68, 177);
+        filter: drop-shadow(1px 1px 20px rgb(211, 247, 5));
+        outline-style: solid orange;
+     }
+  }
