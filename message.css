@@ -77,6 +77,14 @@ main{
     font-size: 10px;
     color: rgb(46, 44, 44);
 }
+#my{
+    color: #1aff00;
+    text-shadow: -1px 1px 5px #e916b0;
+    transition: all 1s ease;
+}
+#my:hover{
+    font-size: 19px;
+}
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
