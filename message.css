@@ -6,6 +6,28 @@
     box-sizing: border-box;
     font-family: "Borel", serif;
 }
+button {
+    font-size: 16px;
+    cursor: pointer;
+    display: inline;
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    padding: 10px;
+}
+button img{
+    height: 30px;
+    position: absolute;
+    top: -5%;
+    left: -5%;
+}
+.hide{
+    display: none;
+}
 body{
     height: 100vh;
     width: 100vw;
@@ -89,7 +111,6 @@ main{
      .two{
         padding-left: 30px;
         min-width: 550px;
-        /* border: 1px solid black; */
      }
      .two h1{
         padding-left: 120px;
@@ -120,5 +141,5 @@ main{
         color: rgb(240, 68, 177);
         filter: drop-shadow(1px 1px 20px rgb(211, 247, 5));
         outline-style: solid orange;
-     }
+     } 
   }
