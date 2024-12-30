@@ -142,4 +142,7 @@ main{
         filter: drop-shadow(1px 1px 20px rgb(211, 247, 5));
         outline-style: solid orange;
      } 
+     .btn{
+        background-color: transparent;
+     }
   }
