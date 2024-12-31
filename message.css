@@ -72,9 +72,14 @@ main{
 .riya{
     color: rgb(240, 68, 177);
     filter: drop-shadow(1px 1px 20px rgb(255, 0, 204));
+    text-shadow: -1px 1px 5px #ffffff;
+}
+#munni{
+    color: #ffffff;
+    text-shadow: -1px 1px 10px #f805b7;
 }
 .summi{
-    font-size: 10px;
+    font-size: 8px;
     color: rgb(46, 44, 44);
 }
 #my{
@@ -84,6 +89,9 @@ main{
 }
 #my:hover{
     font-size: 19px;
+}
+#best{
+    color: blue;
 }
 @media screen 
   and (min-device-width: 1200px) 
